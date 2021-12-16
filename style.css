@@ -1,0 +1,107 @@
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans|Quattrocento);
+@import url(http://fonts.cdnfonts.com/css/segoe-ui-4);
+                
+body {
+  background-color: #f8aea99a ;
+  margin-top: 10px;
+  margin-bottom: 10%;
+  border: 1px solid black;
+}
+
+header {
+  background-color: #939efd;
+  background-size: 100%;
+  font-family: 'Segoe UI', 'Quattrocento Sans', sans-serif, optima;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #242424 ;
+  
+}
+
+.title {
+  font-size: 32px;
+}
+
+article {
+  text-align: center;
+}
+
+img {
+  height: 300px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  }
+
+h3 {
+  font-family: 'Segoe UI','Quattrocento Sans', sans-serif, optima;
+  text-align: center;
+  color: #3b3b3b
+}
+
+p {
+  font-family: 'Segoe UI', 'Quattrocento Sans', sans-serif, optima;
+  color: #3b3b3b;
+  text-align: justify;
+  margin-left:15%;
+  margin-right: 15%;
+}
+
+ul {
+  font-family: 'Segoe UI', 'Quattrocento Sans', sans-serif, optima;
+  text-align: center;
+  color: #3b3b3b;
+}
+
+ol {
+  font-family: 'Segoe UI', 'Quattrocento Sans', sans-serif, optima;
+  text-align: center;
+  color: #3b3b3b;
+}
+
+li {
+  text-align: left;
+  color: #3b3b3b;
+  margin-left:15%;
+  margin-right: 15%;
+}
+
+footer {
+  font-family: 'Segoe UI', 'Quattrocento Sans', sans-serif, optima;
+  margin-top: 20px;
+  color: #3b3b3b;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+a:link {color: blue;} 
+a:visited {color: purple};
+a:hover {color: dodgerblue}
+a:active {color: green}
+
+
+hr {
+  margin-left: 15%;
+  margin-right: 15%;
+  border-color: black;
+  background-color: black;
+  color: black
+}
+
+a.fImage img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.wrapper {
+  width: 800px;
+  margin: auto;
+}
+
+.end {
+  text-align: center;
+}

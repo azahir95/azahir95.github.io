@@ -87,6 +87,7 @@ a:visited {color: purple}
 a:hover {color: dodgerblue}
 a:active {color: green}
 
+/*all the links have a different interaction colors to help distinguish what link is going to be pressed.*/
 
 hr {
   margin-left: 15%;

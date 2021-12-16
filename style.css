@@ -21,6 +21,9 @@ header {
   }
 /*for the header, i chose another color from the photo and added padding so again the text feels more centered.  */
 
+h2{
+  text-align: center;
+}
 .title {
   font-size: 36px;
 }

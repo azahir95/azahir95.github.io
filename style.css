@@ -1,12 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans|Quattrocento);
 @import url(http://fonts.cdnfonts.com/css/segoe-ui-4);
-                
+/*included some fonts that I found online, so I imported them from 2 diffrent websites and added them to all the font-family elements*/
+
 body {
   background-color: #f8aea99a ;
   margin-top: 10px;
   margin-bottom: 10%;
   border: 1px solid black;
 }
+/*body, i wanted a color to match the photo so i went through and found a hex code of something similar, and added a margin to both the top and bottom so that the text feels more centered.*/
 
 header {
   background-color: #939efd;
@@ -16,8 +18,8 @@ header {
   padding-top: 15px;
   padding-bottom: 15px;
   color: #242424 ;
-  
-}
+  }
+/*for the header, i chose another color from the photo and added padding so again the text feels more centered.  */
 
 .title {
   font-size: 32px;
@@ -26,6 +28,7 @@ header {
 article {
   text-align: center;
 }
+/*Centered the photo using the parent article element.*/
 
 img {
   height: 300px;
@@ -34,6 +37,7 @@ img {
   margin-right: auto;
   margin-top: 15px;
   }
+/* added a border to the photo to make it stand out */
 
 h3 {
   font-family: 'Segoe UI','Quattrocento Sans', sans-serif, optima;
@@ -67,6 +71,7 @@ li {
   margin-left:15%;
   margin-right: 15%;
 }
+/*while the unoredered list and ordered list are centered, I thought it looked nice to have the list items sit normally*/
 
 footer {
   font-family: 'Segoe UI', 'Quattrocento Sans', sans-serif, optima;
@@ -105,3 +110,4 @@ a.fImage img {
 .end {
   text-align: center;
 }
+/* centered the footer using a psuedo class item*/
